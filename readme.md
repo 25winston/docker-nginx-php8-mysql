@@ -1,20 +1,22 @@
 # Readme
 
-### How to start servers
+- How to start servers
 
-```
-$ ./docker/start
-$ ./docker/restart
-$ ./docker/stop
-```
+  ```
+  chmod -R 755 ./docker (if can't run)
+  $ ./docker/start
+  $ ./docker/restart
+  $ ./docker/stop
+  ```
 
-- homePage -> http://localhost:8021
+- User Account Mysql
+
+  ```
+    Host: mysql
+    User: root
+    Pass: root
+  ```
+
+- Web Server -> http://localhost:8021
 - phpMyAdmin -> http://localhost:8025
-- adminer -> http://localhost:8026
-
-```
-  MySQL Account
-  Host: mysql
-  User: root
-  Pass: root
-```
+- Adminer -> http://localhost:8026
