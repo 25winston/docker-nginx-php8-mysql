@@ -2,8 +2,10 @@
 
 - How to start servers
 
+  Open Docker App
+
   ```
-  chmod -R 755 ./docker (if can't run)
+  $ chmod -R 755 ./docker (if can't access file)
   $ ./docker/start
   $ ./docker/restart
   $ ./docker/stop
