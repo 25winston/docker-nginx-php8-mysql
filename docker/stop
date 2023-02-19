@@ -1,0 +1,2 @@
+docker-compose -f ./docker/docker-compose.yml down
+docker ps -f name=c_nginx -f name=c_php -f name=c_adminer -f name=c_mysql -f name=c_phpmyadmin
